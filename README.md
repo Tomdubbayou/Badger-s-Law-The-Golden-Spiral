@@ -1,6 +1,8 @@
 # Badger’s Law — The Golden Spiral
 _(nickname: “The Golden Spiral”)_
 
+👉 **Start here:** [Technical Synopsis — Draft β](Badger_Spiral_Tech_Synopsis_Draft_B_Yas.txt)
+
 ---
 
 ## 1 · Instant visual proof
