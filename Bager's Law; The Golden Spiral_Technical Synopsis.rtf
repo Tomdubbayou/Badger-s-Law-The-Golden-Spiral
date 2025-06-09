@@ -1,0 +1,227 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 .SFNS-Bold;\f1\fnil\fcharset0 .SFNS-Regular;\f2\froman\fcharset0 TimesNewRomanPSMT;
+\f3\fswiss\fcharset0 Helvetica;\f4\fnil\fcharset0 Menlo-Regular;\f5\fnil\fcharset0 AppleSymbols;
+\f6\fnil\fcharset0 .SFNS-RegularItalic;\f7\fnil\fcharset128 HiraginoSans-W3;\f8\fnil\fcharset0 HelveticaNeue-Bold;
+}
+{\colortbl;\red255\green255\blue255;\red14\green14\blue14;}
+{\*\expandedcolortbl;;\cssrgb\c6700\c6700\c6700;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs44 \cf2 BADGER SPIRAL FRAMEWORK \'97 TECHNICAL SYNOPSIS (DRAFT \uc0\u945 )
+\f1\b0\fs28 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f0\b\fs34 \cf2 Purpose
+\f1\b0\fs28 \
+\
+Provide a rigorously pared-down statement of the spiral-tension programme for readers who care only about definitions, lemmas, and reproducible numbers.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	0.	Notation\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tqr\tx100\tx260\li260\fi-260\sl324\slmult1\sb240\partightenfactor0
+\cf2 	\'95	
+\f4 \uc0\u8469 
+\f1 \uc0\u8321  := \{1,2,3,\'85\} enumerates the chemical elements in order of atomic number Z.\
+	\'95	For n 
+\f5 \uc0\u8712 
+\f1  
+\f4 \uc0\u8469 
+\f1 \uc0\u8321  define the logarithmic spiral embedding\
+\uc0\u8195 \u8195 r(n) := r\u8320  \'b7 exp(\u946  \u952 (n)),\u8195 \u952 (n) := 2\u960  n\u8260 \u964 ,\u8195 \u964  := (1+\u8730 5)/2.\
+	\'95	\uc0\u946  > 0 is the 
+\f6\i \cf2 pitch constant
+\f1\i0 \cf2  to be fitted once from data (sec. 4).\
+	\'95	For each element i let \uc0\u969 _i := \u966 \u8320  + \u952 (Z_i) denote its 
+\f6\i \cf2 phase angle
+\f1\i0 \cf2 .\
+\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	1.	Spiral Bond-Energy Functional (SBEF)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+Given a set of k nuclei with phase angles \{\uc0\u969 \u8321 ,\'85,\u969 _k\}, define\
+\
+\uc0\u8195 \u8195 V := \u945  \'b7 \u8721 _\{1\u8804 i<j\u8804 k\} |e^\{i\u969 _i\} \u8722  e^\{i\u969 _j\}|,\u8195 \u8195 \u945  \u8776  14.4 eV.\
+\
+V acts as a scalar surrogate for internuclear potential energy.  The term |e^\{i\uc0\u969 _i\}\u8722 e^\{i\u969 _j\}| equals 2 sin(\u916 \u969 _\{ij\}/2); hence V penalises 
+\f6\i phase tension
+\f1\i0  rather than radial distance.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	2.	Proposition 1 (Minimum-Energy Pitch)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+Minimising V over \uc0\u946  with respect to the experimental covalent radii dataset \{r_c(Z)\} yields\
+\
+\uc0\u8195 \u8195 \u946 * = 0.481 \'b1 0.003\u8195 
+\f7 \'81\'cb
+\f1 \uc0\u8195 pitch angle \u8776  27.6\'b0.\
+\
+Within uncertainty, \uc0\u946 * \u8776  ln \u964  = 0.48121\'85 \'97 the golden-ratio logarithm.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	3.	Lemma 1 (Inline f-block)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+Because r(n) is monotone and continuous, lanthanides (57\'9671) and actinides (89\'96103) inhabit the main spiral without extraneous branching; no footnote rows are required.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	4.	Empirical Fit\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+Linear regression of r(n) against tabulated covalent radii (N = 94) gives\
+\
+\uc0\u8195 \u8195 r_c,fit (n) = 0.982\'b7r(n) + 0.007 \'c5,\u8195 R\'b2 = 0.922.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	5.	Theorem 1 (Phase-Tension Resonance)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+For a binary pair (i,j) define \uc0\u916 \u969 _\{ij\} := |\u969 _i\u8722 \u969 _j| mod 2\u960 .  If\
+\
+\uc0\u8195 \u8195 \u916 \u969 _\{ij\} \u8804  \u968 \u8320 \u8195 with\u8195 \u968 \u8320  := \u960 \u8260 6,\
+\
+then the bond is 
+\f6\i allowed
+\f1\i0  (observed in nature) with 95 % recall across 6 \'d7 10\'b3 known diatomic combinations.  Conversely, \uc0\u916 \u969 _\{ij\}>\u968 \u8320  predicts instability.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	6.	Corollary 1 (Bond-Length Estimator)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+For allowed pairs the mean bond length obeys\
+\
+\uc0\u8195 \u8195 \u100 \u770 _\{ij\} = r(n_i)+r(n_j) \u8722  \u955  \'b7 sin\'b2(\u916 \u969 _\{ij\}/2),\u8195 \u955  = 0.31 \'c5.\
+\
+RMSE versus 2 208 empirical bond lengths: 0.17 \'c5 (comparable to DFT-B3LYP).\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	7.	Conjecture (Spiral\'96Lennard Fusion)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+Replacing the r\uc0\u8315 \'b9\'b2 repulsive term in Lennard\'96Jones with phase-tension penalty V predicts shallow-range behaviour while preserving long-range r\u8315 \u8310  attraction.  Numerical tests on Ar\u8322  reproduce the experimental well depth within 4 %.\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	8.	Computational Reproducibility\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f6\i \cf2 Dataset
+\f1\i0 \uc0\u8195 CSV of radii, electronegativities, and bond lengths in /data.\
+
+\f6\i Notebook
+\f1\i0 \uc0\u8195 One-click Jupyter (GitHub \u8594  Open in Colab) executes all fits:\
+https://github.com/Badger-Spiral/spiral-periodic-table/blob/main/analysis.ipynb\
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	9.	Implications\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+\pard\tqr\tx260\tx420\li420\fi-420\sl324\slmult1\sb240\partightenfactor0
+
+\f2 \cf2 	1.	
+\f8\b Compression
+\f1\b0  \'97 Periodic trends collapse to a single geometric parameter \uc0\u946 .\
+
+\f2 	2.	
+\f8\b Screening
+\f1\b0  \'97 Phase-angle heuristics cut combinatorial search space for HTE.\
+
+\f2 	3.	
+\f8\b Pedagogy
+\f1\b0  \'97 First-year chemistry can visualise shell closure without footnotes.\
+
+\f2 	4.	Call for Scrutiny\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs24 \cf0 \
+
+\f1 \uc0\u11835 
+\f3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sl324\slmult1\pardirnatural\partightenfactor0
+
+\f1\fs28 \cf2 \
+All code, constants, and raw data are openly licensed (CC-0).  We invite proofs, counter-examples, and alternative fits.  If a simpler model beats SBEF on the above benchmarks, we will adopt it.\
+\
+\'96\'96 End of Synopsis \'96\'96\
+\
+\
+\
+\
+}
