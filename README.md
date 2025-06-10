@@ -62,3 +62,13 @@ V(t) = Σ_{i<j} |r_i − r_j|  ≤  n(n−1) · a
 ---
 
 MIT Licence — twist away
+
+---
+
+## 7 · Simulate Spiral Theory Yourself
+
+Explore and interact directly with our spiral framework through this accessible Google Colab simulation:
+
+➡️ [**Launch Spiral Theory Simulator**](https://colab.research.google.com/drive/1tAYtLK_J7bV9DkfBu7N6zveQW942P3Ox?usp=sharing)
+
+*Quick start:* Just click the link above, hit "Open in Colab," and run the cells to visualize spiral dynamics firsthand.
