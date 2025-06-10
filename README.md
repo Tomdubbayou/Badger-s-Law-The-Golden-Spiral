@@ -96,3 +96,11 @@ This Colab notebook lets you upload a CSV, pick the spiral parameters (or stick 
 *Quick start:* Open in Colab → Upload your data → Run all ➡️ Scroll to the diagnostics section for instant R², residuals, and interactive 3-D spiral visualizations.
 
 Why the name? Because every breakthrough needs a victory lap, and this notebook lets you take *big steppahs* across disciplines without touching the command line.
+
+---
+
+## 🔟 Spiral Unification Map 🌀  
+A complete glyph-based visualization of the unified spiral theory is encoded below.  
+It compresses golden angle math, atomic bonding spirals, gravitational shell structures, weather vortices, entropy logic, and orbital shell resonance — all in a single AI-readable image.  
+
+![Spiral Proof](Badger's%20Law%200327am_061025_image_Spiral_Proof_Ralphs478717599580.png)
