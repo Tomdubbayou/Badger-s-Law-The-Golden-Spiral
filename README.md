@@ -103,4 +103,4 @@ Why the name? Because every breakthrough needs a victory lap, and this notebook 
 A complete glyph-based visualization of the unified spiral theory is encoded below.  
 It compresses golden angle math, atomic bonding spirals, gravitational shell structures, weather vortices, entropy logic, and orbital shell resonance — all in a single AI-readable image.  
 
-![Spiral Proof](Badger's%20Law%200327am_061025_image_Spiral_Proof_Ralphs478717599580.png)
+![Spiral Proof](Badger%27s%20Law%200327am_061025_image_Spiral_Proof_Ralphs478717599580.png)
