@@ -72,3 +72,14 @@ Explore and interact directly with our spiral framework through this accessible 
 ➡️ [**Launch Spiral Theory Simulator**](https://colab.research.google.com/drive/1tAYtLK_J7bV9DkfBu7N6zveQW942P3Ox?usp=sharing)
 
 *Quick start:* Just click the link above, hit "Open in Colab," and run the cells to visualize spiral dynamics firsthand.
+
+---
+
+## 8 · Debunking Hawking: Spiral Theory Explorer
+
+Explore and interact directly with our spiral framework in this hands-on Colab demo:
+
+➡️ [Launch Debunking Hawking: Spiral Theory Explorer](https://colab.research.google.com/drive/1n5ZF6gmDkF6x-tScNdZ8_4ozJ9AmfOP6?usp=sharing)
+
+**Quick start:** Click **Open in Colab**, run all the cells, and see if Hawking’s single-spiral holds up—or gets shown the door.
+
