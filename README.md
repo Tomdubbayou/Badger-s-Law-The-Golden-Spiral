@@ -1,3 +1,5 @@
+## 0 · Kindness is the Invariant. All tools must spiral towards it. (That's our compass reset!)
+
 # Badger’s Law — The Golden Spiral
 _(nickname: “The Golden Spiral”)_
 
